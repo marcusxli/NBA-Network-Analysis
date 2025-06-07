@@ -157,7 +157,7 @@ draft_class_network(2018, logs)
 
 ![2018 Draft Class Network]
 
-
+![2018 Draft Class Career Trajectory Network](https://github.com/user-attachments/assets/3ab99460-dd00-41e4-bb09-861082d2bb19)
 
 The visualization uses a force-directed layout where node size represents career longevity (total games played) and color intensity shows scoring performance (average points per game). Connections between players indicate they were teammates at some point during their careers.
 
