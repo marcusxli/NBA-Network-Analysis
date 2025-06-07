@@ -147,7 +147,7 @@ draft_class_network <- function(draft_years, logs) {
     scale_color_viridis_c(option = "C", direction = -1, name = "Avg PPG") + # Color scale = viridis color palette (C), reversed
     scale_size(range = c(3, 10), name = "Total Games Played") + # Node size scale
     theme_void() + # No background / axis
-    ggtitle(paste(draft_years, "Draft Class Career Trajectory Network")) + # Title of the plot
+    ggtitle(paste(draft_years, "Draft Class Career Trajectory Network (Spread and Readable)")) + # Title of the plot
     theme(plot.title = element_text(hjust = 0.5, size = 16, face = "bold")) # Title formatting (centered, bold)
 }
 
