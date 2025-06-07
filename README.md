@@ -23,14 +23,6 @@ The analysis focuses on the 2018 NBA Draft class, using game log data from 2018-
 install.packages("remotes")
 remotes::install_github("abresler/nbastatR", force = TRUE)
 remotes::install_version("future", version = "1.15.1")
-install.packages("nbastatR")
-install.packages("future")
-install.packages("dplyr")
-install.packages("remotes")
-install.packages("tidyr")
-install.packages("igraph")
-install.packages("ggraph")
-install.packages("ggplot2")
 
 # Load libraries
 library(nbastatR)
@@ -154,8 +146,6 @@ draft_class_network <- function(draft_years, logs) {
 # Run function
 draft_class_network(2018, logs)
 ```
-
-![2018 Draft Class Network]
 
 ![2018 Draft Class Career Trajectory Network](https://github.com/user-attachments/assets/3ab99460-dd00-41e4-bb09-861082d2bb19)
 
